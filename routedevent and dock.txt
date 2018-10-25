@@ -1,0 +1,27 @@
+ButtonBase.ClickEvent = EventManager.RegisterRoutedEvent(
+"Click", RoutingStrategy.Bubble,
+typeof(RoutedEventHandler), typeof(ButtonBase));
+...
+
+
+
+<DockPanel>
+<TextBlock DockPanel.Dock="Top">My UI</TextBlock>
+<ListBox DockPanel.Dock="Right">
+<ListBoxItem>Item 1</ListBoxItem>
+<ListBoxItem>Item 2</ListBoxItem>
+</ListBox>
+<RichTextBox/>
+</DockPanel>
+
+
+
+Expander
+
+Two way binding
+
+Styles
+
+Canvas Properties
+
+Lines
